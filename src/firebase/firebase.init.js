@@ -6,13 +6,15 @@ import { getAuth } from 'firebase/auth'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyCZJKQblge4KFknRjoLAD6gX3IU81KBmgc',
-  authDomain: 'ema-jhom-auth.firebaseapp.com',
-  projectId: 'ema-jhom-auth',
-  storageBucket: 'ema-jhom-auth.appspot.com',
-  messagingSenderId: '348050931824',
-  appId: '1:348050931824:web:eb2069b23dffcd80a1b4b5',
-}
+  apiKey: "AIzaSyD8JCuTa_eoHr_ab8resdGL7MR49Sc_bgg",
+  authDomain: "fir-authentication-171de.firebaseapp.com",
+  projectId: "fir-authentication-171de",
+  storageBucket: "fir-authentication-171de.appspot.com",
+  messagingSenderId: "272102848865",
+  appId: "1:272102848865:web:be69631dd0e2f698b4ed20",
+  measurementId: "G-1XE8CWRD5K"
+};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
